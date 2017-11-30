@@ -5,12 +5,6 @@ class Loader extends Component {
     super(props)
   }
 
-  // componentDidMount() {
-  //   this.setState({
-  //     loading: "none"
-  //   })
-  // }
-
   render() {
     return(
       <div className="loader" style={{display: "none"}}></div>
